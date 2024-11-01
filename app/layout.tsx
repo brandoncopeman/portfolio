@@ -7,7 +7,6 @@ import Footer from "@/components/footer";
 import Theme from "@/components/theme";
 import ThemeContextProvider from "@/context/theme-context";
 
-const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Brandon | Personal Portfolio",
   description: "Recently graduated full-stack developer",
