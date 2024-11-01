@@ -1,14 +1,12 @@
 "use client";
 
 import React, { useEffect, useState } from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link';
 import { BsArrowRight, BsGithub } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '@/context/active-section-context';
-import { time } from 'console';
 import { useSectionInView } from '@/lib/hooks';
 
 

@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import { useSectionInView } from '@/lib/hooks';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
