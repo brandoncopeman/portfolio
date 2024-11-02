@@ -16,10 +16,10 @@ export default function Theme() {
     onClick={toggleTheme}
     >
       {
-        theme === 'dark' ? (
-          <BsMoon  />
+        theme === 'light' ? (
+          <BsSun  />
         ) : (
-          <BsSun />
+          <BsMoon />
         )
       }
        
