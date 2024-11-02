@@ -1,9 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://brandoncopeman.github.io/brandoncopeman.github.io",
+  "homepage": "https://brandoncopeman.github.io/portfolio/",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,11 +23,11 @@
     "resend": "^4.0.1-alpha.0"
   },
   "eslintConfig": {
-  "rules": {
-   "no-unused-vars": 0,
-   "@typescript-eslint/no-unused-vars": 0
-  }
-},
+    "rules": {
+      "no-unused-vars": 0,
+      "@typescript-eslint/no-unused-vars": 0
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
