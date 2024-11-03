@@ -6,8 +6,8 @@ experimental: {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix:  'https://github.com/brandoncopeman/portfolio/'  ,
-  basePath:  'https://github.com/brandoncopeman/portfolio/tree/gh-pages'  ,
+  assetPrefix:  '/https://github.com/brandoncopeman/portfolio/tree/gh-pages'  ,
+  basePath:  '/https://github.com/brandoncopeman/portfolio/tree/gh-pages'  ,
   output: 'export'
 };
 
