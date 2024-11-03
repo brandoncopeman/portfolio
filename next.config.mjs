@@ -2,15 +2,12 @@
 const nextConfig = {
 experimental: {    
     serverActions: true},
-    reactStrictMode: true,
+    output: "export",  // <=== enables static exports
+  basePath: "/nextjs-github-pages",
   images: {
-    unoptimized: true, // Disable default image optimization
-  },
-  assetPrefix:  '/https://github.com/brandoncopeman/portfolio/tree/gh-pages'  ,
-  basePath:  '/https://github.com/brandoncopeman/portfolio/tree/gh-pages'  ,
-  output: 'export'
+    unoptimized: true,
+  }
 };
-
 
 
 export default nextConfig;
