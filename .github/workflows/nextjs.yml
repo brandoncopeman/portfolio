@@ -2,6 +2,7 @@ on:
   push:
     branches: [gh-pages]
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,7 +22,7 @@ jobs:
         run: echo "BASE_PATH=/$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)" >> $GITHUB_ENV
 
       - name: Build my App
-        run: npm run build && touch ./out/.nojekyll
+        run: npm run build && touch ./.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.0
