@@ -2,12 +2,7 @@
 const nextConfig = {
 experimental: {    
     serverActions: true},
-    output: "export",
-    images: {
-      loader: "akamai",
-      path: "",
-    },
-    assetPrefix: "./",
+  
 
 };
 
