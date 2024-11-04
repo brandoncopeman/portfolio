@@ -2,11 +2,6 @@
 const nextConfig = {
 experimental: {    
     serverActions: true},
-    output: 'export',
-    assetPrefix: './',
-    images: {
-      unoptimized: true
-    }
 }
 
 export default nextConfig;
