@@ -3,7 +3,7 @@ const config = {
   plugins: {
     tailwindcss: {},
   },
-  output: 'export',
+  output: "export",
 
   /**
    * Set base path. This is the slug of your GitHub repository.

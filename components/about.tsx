@@ -19,7 +19,7 @@ export default function About() {
             About me
         </SectionHeading>
         <p className='mb-3'>
-            Alot of random text about me and my life. Alot of random text about me and my life. Alot of random text about me and my dlife.
+            Alot of random text about me and my life. Alot of random text about me and my life. Alot of random text about me and my life.
         </p>
         <p>
             More stuff to say about me and my life. More stuff to say about me and my life. More stuff to say about me and my life. 
